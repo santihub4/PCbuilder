@@ -1,0 +1,95 @@
+/* Base: Fondo oscuro y texto claro */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    padding: 20px;
+}
+
+/* Contenedor de la app */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #1e1e1e; /* Fondo oscuro para la caja */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más suave */
+}
+
+/* Títulos */
+h1, h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff; /* Títulos en blanco */
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Estilos de los componentes */
+.componente {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 0.9em;
+    color: #e0e0e0; /* Etiquetas claras */
+}
+
+/* Estilo de los inputs */
+.nombre-componente,
+.precio-componente {
+    background-color: #333; /* Fondo oscuro para los inputs */
+    color: #fff; /* Texto blanco */
+    border: 1px solid #444; /* Bordes sutiles */
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* Botones */
+button {
+    background-color: #4CAF50; /* Verde para el botón */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049; /* Efecto hover */
+}
+
+/* Total */
+#total {
+    font-weight: bold;
+}
+
+/* Estilos de la acción del total */
+.acciones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.nombre-componente {
+    flex: 2;
+}
+
+.precio-componente {
+    flex: 1;
+}
